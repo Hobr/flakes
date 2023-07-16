@@ -15,11 +15,11 @@
   sops.defaultSopsFile = ../../../secrets/secrets.yaml;
   users.mutableUsers = false;
   users.users.root = {
-    initialHashedPassword = "$6$4lwj3AGq8M9CQE2.$q8cNPghWHTl/dfE0dMPm2vsh0cMpY2gWxw91/Uadi8jShbvUHJJu3Jg0CvSpqrlEB7a3kvWDf/p2CI3mSqP1c/";
+    initialHashedPassword = "63455b6fd3b02c043ef630d894ab3e1580f06325fb9f4002efc58f10a604f4c2be5696ff7c6371abb65c8e956e389d7a21b52a12c814f3f7390c3959a308a33b";
   };
   programs.fish.enable = true;
   users.users.${user} = {
-    initialHashedPassword = "$6$4lwj3AGq8M9CQE2.$q8cNPghWHTl/dfE0dMPm2vsh0cMpY2gWxw91/Uadi8jShbvUHJJu3Jg0CvSpqrlEB7a3kvWDf/p2CI3mSqP1c/";
+    initialHashedPassword = "63455b6fd3b02c043ef630d894ab3e1580f06325fb9f4002efc58f10a604f4c2be5696ff7c6371abb65c8e956e389d7a21b52a12c814f3f7390c3959a308a33b";
     shell = pkgs.fish;
     isNormalUser = true;
     extraGroups = [ "wheel" "docker" "libvirtd" "video" "audio" ];

@@ -6,7 +6,7 @@
   nixpkgs.config.allowUnfree = true;
 
   networking = {
-    hostName = "RuiXi"; # Define your hostname.
+    hostName = "hobr"; # Define your hostname.
     networkmanager.enable = true;
     hosts = {
       "185.199.109.133" = [ "raw.githubusercontent.com" ];
